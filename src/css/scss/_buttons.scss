@@ -49,6 +49,20 @@
   }
 }
 
+// hdc call to action button
+.btn-hdc {
+
+  table td {
+    background-color: $hdc-color;
+  }
+
+  a{
+    background-color: $hdc-color;
+    border-color: $hdc-color;
+    color: #ffffff;
+  }
+}
+
 // Secondary button
 .btn-secondary {
 
