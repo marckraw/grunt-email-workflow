@@ -4,6 +4,16 @@ subject: Ceny spadaja z początkiem maja
 nazwa_mailingu: mailingMAJ-2018/
 adres_dev: ../img/
 
+damian_imie: Damiana
+damian_nazwisko: Fulara
+damian_email:
+
+hubert_imie: Hubert
+hubet_nazwisko: Nowakowski
+hubert_email: hubert@tayama.pl
+hubert_tel1: +48 32 258 22 89 wew 31
+hubert_tel2: +48 32 357 19 25
+
 ---
 <span class="preheader">{{ subject }}</span>
 <table class="main">
@@ -128,6 +138,7 @@ adres_dev: ../img/
                 </tr>
                 <tr>
                     <td>
+                        {{> freespace }}
                         {{> button align="center" type='hdc' url='http://sklep.tayama.pl/oferta-handlowa,39?search=HDC-VR2004JV%2c+HDC-VR2008JV%2c+HDC-VR2016DV' title='ZOBACZ WIĘCEJ...' }}
                     </td>
                 </tr>
@@ -149,23 +160,19 @@ adres_dev: ../img/
                         <table width="100%" cellpadding="5" cellspacing="0">
                             <tr>
                                 <td>Bezpośredni kontakt</td>
-                                <td><strong>Damian Fulara</strong></td>
+                                <td><strong>{{ hubert_imie }} {{ hubet_nazwisko }}</strong></td>
                             </tr>
                             <tr>
                                 <td>dotyczący oferty:</td>
-                                <td>536 357 774</td>
+                                <td>{{ hubert_tel1 }}</td>
                             </tr>
                             <tr>
                                 <td></td>
-                                <td>(32) 357 19 30</td>
+                                <td>{{ hubert_tel2 }}</td>
                             </tr>
                             <tr>
                                 <td></td>
-                                <td>(32) 258 22 89 wew 42</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td><a href="mailto:damian.fulara@tayama.com.pl">damian.fulara@tayama.com.pl</a></td>
+                                <td><a href="mailto:{{ hubert_email }}">{{ hubert_email }}</a></td>
                             </tr>
                             <tr>
                                 <td></td>
